@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE WEB</title>
+    <link rel="stylesheet" href="index.css" />
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/arkhip" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <nav class="header__nav">
+          <a href="#" class="logo__link">
+            <dl class="logo">
+              <dt>ONEWEB</dt>
+              <dd>Разработка сайтов</dd>
+            </dl>
+          </a>
+        </nav>
+        <h1 class="header__title">Анкета</h1>
+        <form class="header__about-form">
+          <div class="label-input-container">
+            <label for="name">Полное ФИО</label>
+            <input
+              class="about-form__input"
+              type="text"
+              id="name"
+              placeholder="Шахзод Мадмаров"
+            />
+          </div>
+          <div class="label-input-container">
+            <label for="birthday">Дата рождения</label>
+            <input
+              class="about-form__input"
+              type="number"
+              id="birthday"
+              placeholder="09.10.1999"
+            />
+          </div>
+          <div class="label-input-container">
+            <label for="address">Место жительства</label>
+            <input
+              class="about-form__input"
+              type="text"
+              id="address"
+              placeholder="Шахзод Мадмаров"
+            />
+          </div>
+          <div class="label-input-container">
+            <label for="phone">Телефон / Телеграм</label>
+            <input
+              class="about-form__input"
+              type="tel"
+              id="phone"
+              placeholder="+998889763444/shakhzodJS"
+            />
+          </div>
+          <div class="label-input-container">
+            <label for="email">Почта</label>
+            <input
+              class="about-form__input"
+              type="email"
+              id="email"
+              placeholder="madmarovshakhzod@gmail.com"
+            />
+          </div>
+        </form>
+      </header>
+      <section class="skills">
+        <h2 class="title">Расскажите о себе чекбоксами</h2>
+        <p>
+          Отметьте чекбоксами пункты, которые соответствуют вашим скиллам
+          (пункт/пункт/пункт - пункты, в которых несколько технологий, оставьте
+          только те, которыми владеете)
+        </p>
+        <form class="skills__form">
+          <div class="skills__form-left">
+            <label for="semantic">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="semantic"
+                checked
+              />Верстаю семантично</label
+            >
+            <label for="bem">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="bem"
+                checked
+              />БЭМ/OOCSS</label
+            >
+            <label for="stylus">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="stylus"
+                checked
+              />Stylus/LESS/SASS (подчекнуть то, чем пользуюсь)</label
+            >
+            <label for="pixelPerfect">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="pixelPerfect"
+                checked
+              />Верстаю Pixel perfect</label
+            >
+            <label for="details">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="details"
+                checked
+              />Я внимателен к деталям и перед отправкой на проверку проверяю
+              внимательно сделанную мной задачу сам</label
+            >
+            <label for="jQuery">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="jQuery"
+                checked
+              />Я хорошо знаю jQuery</label
+            >
+            <label for="js">
+              <input class="skills-checkbox" type="checkbox" id="js" checked />Я
+              хорошо владею чистым Javascript</label
+            >
+            <label for="ajax">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="ajax"
+                checked
+              />Я хорошо знаю Ajax</label
+            >
+          </div>
+          <div class="skills__form-right">
+            <label for="vueJs">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="vueJs"
+                checked
+              />Я знаю Vue.js</label
+            >
+            <label for="git">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="git"
+                checked
+              />Я умею пользоваться Git</label
+            >
+            <label for="wordpress">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="wordpress"
+                checked
+              />Я знаю и умею натягивать верстку на Wordpress</label
+            >
+            <label for="acf">
+              <input class="skills-checkbox" type="checkbox" id="acf" />Я знаю и
+              уверенно применяю ACF в Wordpress</label
+            >
+            <label for="php">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="php"
+                checked
+              />Я знаю основы PHP и могу немного править код</label
+            >
+            <label for="openCart">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="openCart"
+                checked
+              />Я знаю OpenCart</label
+            >
+            <label for="online">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="online"
+                checked
+              />Всегда в сети онлайн</label
+            >
+            <label for="punctual">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="punctual"
+                checked
+              />Я пунктуален и могу работать в сжатые сроки</label
+            >
+            <label for="adaptive">
+              <input
+                class="skills-checkbox"
+                type="checkbox"
+                id="adaptive"
+                checked
+              />Я могу быстро переключаться между задачами</label
+            >
+            <label for="lazy">
+              <input class="skills-checkbox" type="checkbox" id="lazy" />Я
+              ленивый(-ая)</label
+            >
+          </div>
+        </form>
+      </section>
+      <section class="js__task1">
+        <h2 class="title">Уровень владения JavaScript, jQuery Задание №1</h2>
+        <p>
+          Ползунок должен двигаться и при смене позиции активная иконка
+          выделяться цветом
+        </p>
+        <div class="js__task1-content">
+          <ul class="content__list">
+            <li class="content__item">Не владею</li>
+            <li class="content__item">Использую готовые решения</li>
+            <li class="content__item">
+              Использую готовые решения и умею их переделывать
+            </li>
+            <li class="content__item">Пишу сложный JS с нуля</li>
+          </ul>
+          <input
+            type="range"
+            id="sliderLevel"
+            min="0"
+            max="3"
+            step="1"
+            value="3"
+          />
+          <ul class="task1-icons__list">
+            <li class="task1-icons__item" id="icon1">
+              <img
+                class="icon-face"
+                src="images/Property1=on.png"
+                alt="level1"
+              />
+              <img
+                class="arrow visually-hidden"
+                src="images/Mask-group.png"
+                alt="arrow pointer"
+              />
+            </li>
+            <li class="task1-icons__item" id="icon2">
+              <img
+                class="icon-face"
+                src="images/Property2=off.png"
+                alt="level2"
+              />
+              <img
+                class="arrow visually-hidden"
+                src="images/Mask-group.png"
+                alt="arrow pointer"
+              />
+            </li>
+            <li class="task1-icons__item" id="icon3">
+              <img
+                class="icon-face"
+                src="images/Property3=off.png"
+                alt="level3"
+              />
+              <img
+                class="arrow visually-hidden"
+                src="images/Mask-group.png"
+                alt="arrow pointer"
+              />
+            </li>
+            <li class="task1-icons__item" id="icon4">
+              <img
+                class="icon-face"
+                src="images/Property4=off.png"
+                alt="level4"
+              />
+              <img
+                class="arrow visually-hidden"
+                src="images/Mask-group.png"
+                alt="arrow pointer"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="js-task2">
+        <h2 class="title">Уровень владения JavaScript, jQuery Задание №2</h2>
+        <p>
+          Строительный калькулятор. В зависимости от выбранных параметров должен
+          сразу считать стоимость по формуле, указанной в Техническом задании.
+        </p>
+        <div class="js__task2-inputs">
+          <div class="js__task2-slider">
+            <div class="task2__slider-content">
+              <ul>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+                <li>
+                  <img
+                    class="arrow visually-hidden"
+                    src="images/Mask-group.png"
+                    alt="arrow pointer"
+                  />
+                </li>
+              </ul>
+              <label for="sliderNum" class="visually-hidden"
+                >Slider for task 2</label
+              >
+              <input
+                type="range"
+                min="30"
+                max="100"
+                value="30"
+                step="10"
+                id="sliderNum"
+              />
+              <ul class="task2-size__list">
+                <li class="task2-size__item">30м</li>
+                <li class="task2-size__item">40м</li>
+                <li class="task2-size__item">50м</li>
+                <li class="task2-size__item">60м</li>
+                <li class="task2-size__item">70м</li>
+                <li class="task2-size__item">80м</li>
+                <li class="task2-size__item">90м</li>
+                <li class="task2-size__item">100м</li>
+              </ul>
+            </div>
+            <p class="task2__slider-value">30м</p>
+            <p class="task2-total">
+              Стоимость: <span class="task2-total__span">100 000 руб.</span>
+            </p>
+          </div>
+          <div class="js__task2-radios">
+            <div class="repair-content">
+              <fieldset>
+                <legend>Тип ремонта:</legend>
+                <label for="repair1">
+                  <input
+                    class="repair__radio"
+                    type="radio"
+                    id="repair1"
+                    name="repair"
+                    value="1"
+                    checked
+                  />Новостройка
+                </label>
+                <label for="repair2">
+                  <input
+                    class="repair__radio"
+                    type="radio"
+                    id="repair2"
+                    name="repair"
+                    value="0.7"
+                  />Вторичное жилье
+                </label>
+                <label for="repair3">
+                  <input
+                    class="repair__radio"
+                    type="radio"
+                    id="repair3"
+                    name="repair"
+                    value="0.5"
+                  />Частный дом
+                </label>
+              </fieldset>
+            </div>
+            <div class="rate-content">
+              <fieldset>
+                <legend>Тарифы:</legend>
+                <label for="rate1">
+                  <input
+                    class="rate__radio"
+                    type="radio"
+                    id="rate1"
+                    name="rate"
+                    value="2500"
+                    checked
+                  />Косметический
+                </label>
+                <label for="rate2">
+                  <input
+                    class="rate__radio"
+                    type="radio"
+                    id="rate2"
+                    name="rate"
+                    value="3500"
+                  />Под ключ
+                </label>
+                <label for="rate3">
+                  <input
+                    class="rate__radio"
+                    type="radio"
+                    id="rate3"
+                    name="rate"
+                    value="4500"
+                  />Капитальный
+                </label>
+                <label for="rate4">
+                  <input
+                    class="rate__radio"
+                    type="radio"
+                    id="rate4"
+                    name="rate"
+                    value="1500"
+                  />Частичный
+                </label>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="autobiography">
+        <h2 class="title">Расскажите о себе словами</h2>
+        <p>
+          Напишите пару предложений, чем вас привлекла наша вакансия и чего вы
+          ожидаете от работы в ONE WEB. Кстати, будет здорово, если при нехватке
+          места для текста строки будут добавляться автоматически.
+        </p>
+        <form class="autobiography__form">
+          <label for="textInput" class="visually-hidden">About My Self</label>
+          <textarea
+            class="autobiography__textarea"
+            id="textInput"
+            placeholder="Я готов принести навыки и опыт из стажировки в Nix Tech, включая разработку веб-приложений на JavaScript и React, работу с API и базами данных. 
+Моя цель — внести вклад в вашу команду, обладая технической компетенцией и страстью к Full Stack разработке."
+          ></textarea>
+        </form>
+      </section>
+      <section class="plans">
+        <h2 class="title">Какие у вас планы на будущее?</h2>
+        <p>
+          Этот ответ ни на что не повлияет. Не беда, если в будущем ваши планы
+          поменяются.
+        </p>
+        <div class="plans-content">
+          <label for="plan1"
+            ><input
+              class="plans__radio"
+              type="radio"
+              id="plan1"
+              name="plan-radio"
+              value="plan1"
+            />Верстать</label
+          >
+          <label for="plan2"
+            ><input
+              class="plans__radio"
+              type="radio"
+              id="plan2"
+              name="plan-radio"
+              value="plan2"
+            />Прокачиваться в JS</label
+          >
+          <label for="plan3"
+            ><input
+              class="plans__radio"
+              type="radio"
+              id="plan3"
+              name="plan-radio"
+              value="plan3"
+            />Менеджерство</label
+          >
+          <label for="plan4"
+            ><input
+              class="plans__radio"
+              type="radio"
+              id="plan4"
+              name="plan-radio"
+              value="plan4"
+              checked
+            />Другое</label
+          >
+        </div>
+        <p class="hours">
+          Кол-во часов потраченных на тестовое задание:
+          <span class="hours__span">10 часов</span>
+        </p>
+        <p class="given-date">
+          Дата заполнения <span class="given-date__span">16. 10. 2023</span>
+        </p>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
